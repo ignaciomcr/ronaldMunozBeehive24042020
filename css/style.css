@@ -1,0 +1,457 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+.userDetail {
+  /* z-index: 900; */
+  /* position: absolute; 
+  /* float:right; */
+  width: 20vw;
+  height: 15vh;
+  /* background-color: cornsilk; */
+}
+
+
+
+
+
+
+button {
+    background-color: crimson;
+    padding: 20px;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
+
+
+
+/*estilos */
+
+.divPrincipal {
+  /* z-index: 1000; */
+   position: absolute; 
+  /* float:left; */
+  width: 100%;
+  height: 100%;
+  /* background-color: gainsboro;  */
+}
+
+.divTitulo {
+  position: absolute; 
+  width: 100%;
+  height: 5%;
+  border-style: solid;
+  border-color:black;
+}
+
+/******************************* Estilos para sección Bees *******************************/
+/* Este es el div general Bees*/
+.divBees {
+  /* z-index: 1000; */
+   /* position: relative;  */
+   margin-top: 3%;
+   margin-right: 0.5%;
+   float:left;
+   width: 23%;
+    
+   /*height: 1000%;*/
+
+  /* height: 100%;  Se ajusta a la altura de su div hijo (DivAgrupaDivsBee)*/
+  border-style: solid;
+  border-color:red;
+}
+
+
+.DivAgrupaDivsBee {
+  /*position: relative;*/
+  /* width: 10vw; */
+  width: 96%; /*50% de su contenedor padre divBees (23%)*/
+  /*height: 100%;*/
+ /*height: 10%; */
+ /* color: white; */
+ margin: 5px;
+ /* background-color: green; */
+ border-style:solid;
+ border-width: thin;
+ border-color:green;
+ float:left;
+}
+
+.DivInfoBee {
+  /* z-index: 1000; */
+    /*position: relative; */
+   margin-top: 3%;
+   margin-right: 0.5%;
+   margin-left: 3%;
+   margin-bottom: 3%;
+   float:left;
+   width: 50%;
+   
+  /* height: 100%;  Se ajusta a la altura de su div hijo (divBeeContainer)*/
+  border-style: solid;
+  border-width: thin;
+  border-color:yellow;
+}
+
+.DivBotonesBee {
+  /* z-index: 1000; */
+    /*position: relative; */
+   margin-top: 3%;
+   margin-right: 0.5%;
+   margin-left: 3%;
+   margin-bottom: 3%;
+   float:left;
+   width: 35%;
+  /* height: 100%;  Se ajusta a la altura de su div hijo (divBeeContainer)*/
+  border-style: solid;
+  border-width: thin;
+  border-color:orchid;
+}
+
+.h1Bees {
+  color: red;    
+  font-size: 16px;
+  margin-top: 3%;
+  margin-left: 3%;
+  
+}
+
+.beeContainerH3 {
+  color:gray;
+}
+
+.beeContainerP {
+color:black;
+font-size: 12px ;
+}
+
+.beeContainerButton {
+  width: 90%;
+  /* !important */
+  /* top right botton left */
+   padding: 2px 2px 2px 2px ;
+  
+  background-color: red;
+  color: white;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+/*******************************************************************************/
+
+
+/******************************* Estilos para sección Posts *******************************/
+.divPosts {
+  /* z-index: 1000; */
+   /* position: relative;  */
+   margin-top: 3%;
+   margin-right: 0.5%;
+   float:left;
+  width: 23%;
+  height: 1000%;
+
+  border-style: solid;
+  border-color:blue;
+}
+
+.DivAgrupaDivsPosts {
+  /*position: relative;*/
+  /* width: 10vw; */
+  width: 96%; /*50% de su contenedor padre divBees (23%)*/
+  height: 100%;
+ /*height: 10%; */
+ /* color: white; */
+ margin: 5px;
+ /* background-color: green; */
+ border-style:solid;
+ border-width: thin;
+ border-color:green;
+ float:left;
+}
+
+.DivInfoPost {
+  /* z-index: 1000; */
+    /*position: relative; */
+   margin-top: 3%;
+   margin-right: 0.5%;
+   margin-left: 3%;
+   margin-bottom: 3%;
+   float:left;
+   width: 92%;
+   
+  /* height: 100%;  Se ajusta a la altura de su div hijo (divBeeContainer)*/
+  border-style: solid;
+  border-width: thin;
+  border-color:yellow;
+}
+
+.postContainerButton {
+  width: 100%;
+  /* !important */
+  /* top right botton left */
+   padding: 2px 2px 2px 2px ;
+  
+  background-color: rgb(49, 172, 189);
+  color: white;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+  .DivNameBodyPost {
+    /* z-index: 1000; */
+      /*position: relative; */
+     margin-top: 3%;
+     margin-right: 0.5%;
+     margin-left: 3%;
+     margin-bottom: 3%;
+     float:left;
+     width: 94%;
+    /* height: 100%;  Se ajusta a la altura de su div hijo (divBeeContainer)*/
+    border-style: solid;
+    border-width: thin;
+    border-color:orchid;
+  }
+
+  .postP {
+    color:black;
+    font-size: 12px ;
+    }
+
+.h1Posts {
+  color: blue;    
+  font-size: 16px;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+/*******************************************************************************/
+
+/******************************* Estilos para sección Album *******************************/
+.divAlbumes {
+  /* z-index: 1000; */
+   /* position: relative;  */
+   margin-top: 3%;
+   margin-right: 0.5%;
+   float:left;
+  width: 23%;
+  
+  height: 1000%;
+
+  border-style: solid;
+  border-color:purple
+}
+
+.DivAgrupaDivsAlbum {
+  /*position: relative;*/
+  /* width: 10vw; */
+  width: 96%; /*50% de su contenedor padre divAlbumes(23%)*/
+  
+  /*height: 100%;*/
+
+ /*height: 10%; */
+ /* color: white; */
+ margin: 5px;
+ /* background-color: green; */
+ border-style:solid;
+ border-width: thin;
+ border-color:green;
+ float:left;
+}
+
+
+.DivInfoAlbum {
+  /* z-index: 1000; */
+    /*position: relative; */
+   margin-top: 3%;
+   margin-right: 0.5%;
+   margin-left: 3%;
+   margin-bottom: 3%;
+   float:left;
+   width: 92%;   
+  /* height: 100%;  Se ajusta a la altura de su div hijo (divBeeContainer)*/
+  border-style: solid;
+  border-width: thin;
+  border-color:yellow;
+}
+
+.DivImagen {
+  /* z-index: 1000; */
+    /*position: relative; */
+   margin-top: 3%;
+   margin-right: 0.5%;
+   margin-left: 3%;
+   margin-bottom: 3%;
+   float:left;
+   width: 94%;
+  /* height: 100%;  Se ajusta a la altura de su div hijo (divBeeContainer)*/
+  border-style: solid;
+  border-width: thin;
+  border-color:orchid;
+}
+
+.albumP {
+  color:black;
+  font-size: 12px ;
+  }
+
+
+.h1Album {
+  color: purple;    
+  font-size: 16px;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+/*******************************************************************************/
+
+/******************************* Estilos para sección ToDos *******************************/
+.divTodos {
+  /* z-index: 1000; */
+   /* position: relative;  */
+   margin-top: 3%;
+   margin-right: 0.5%;
+   float:left;
+  width: 23%;
+  
+  height: 1000%;
+
+  border-style: solid;
+  border-color:green;
+}
+
+.DivAgrupaDivsTodo {
+  /*position: relative;*/
+  /* width: 10vw; */
+  width: 96%; /*50% de su contenedor padre divAlbumes(23%)*/
+  
+  /*height: 100%;*/
+
+ /*height: 10%; */
+ /* color: white; */
+ margin: 5px;
+ /* background-color: green; */
+ border-style:solid;
+ border-width: thin;
+ border-color:green;
+ float:left;
+}
+
+
+.DivInfoTodo {
+  /* z-index: 1000; */
+    /*position: relative; */
+   margin-top: 3%;
+   margin-right: 0.5%;
+   margin-left: 3%;
+   margin-bottom: 3%;
+   float:left;
+   width: 65%;   
+  /* height: 100%;  Se ajusta a la altura de su div hijo (divBeeContainer)*/
+  border-style: solid;
+  border-width: thin;
+  border-color:yellow;
+}
+
+
+.DivBotonTodo {
+  /* z-index: 1000; */
+    /*position: relative; */
+   margin-top: 3%;
+   margin-right: 0.5%;
+   margin-left: 3%;
+   margin-bottom: 3%;
+   float:left;
+   width: 25%;
+  /* height: 100%;  Se ajusta a la altura de su div hijo (divBeeContainer)*/
+  border-style: solid;
+  border-width: thin;
+  border-color:orchid;
+}
+
+.BotonTodo {
+  width: 98%;
+  
+  /* !important */
+  /* top right botton left */
+   padding: 2px 10px 2px 10px ;
+  
+  background-color: rgb(49, 172, 189);;
+  color: white;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+
+.h1Todos {
+  color: green;    
+  font-size: 16px;
+  margin-top: 3%;
+  margin-left: 3%;
+  
+}
+
+.todoP {
+  color:black;
+  font-size: 12px ;
+  }
+/*******************************************************************************/
